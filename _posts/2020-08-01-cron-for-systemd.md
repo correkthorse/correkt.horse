@@ -3,13 +3,11 @@ layout: post
 title:  "cron for systemd"
 summary: "sometimes you need a cron replacement"
 date: 2020-08-01 00:13:37
-image: /assets/images/cover.jpg
+image: /assets/profile.png
 author: tim_koopmans
 categories: ops
 ---
 Sometimes you need a cron replacement.
-
-![systemd-run](/assets/images/2020-08-01-cron-for-systemd.png)
 
 > Timers are systemd unit files whose name ends in .timer that control .service files or events. Timers can be used as an alternative to cron. Timers have built-in support for calendar time events, monotonic time events, and can be run asynchronously.
 

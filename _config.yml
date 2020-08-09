@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: ✅🐴🔋[
+url: https://correkt.horse
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -46,3 +46,8 @@ nav:
 
   - title: About
     url: /about
+
+site:
+  title: ✅🐴🔋[
+  twitter_username: correkthorse
+  title_image: /assets/profile.png
