@@ -3,6 +3,38 @@
 // Show alert messages to users. You may add it to single elements like a `<p>`,
 // or to a parent if there are multiple elements to show.
 
+.critical {
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  color: var(--gray-900);
+  background-color: var(--red);
+  border-radius: var(--border-radius);
+}
+
+.high {
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  color: var(--gray-900);
+  background-color: var(--orange);
+  border-radius: var(--border-radius);
+}
+
+.moderate {
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  color: var(--gray-900);
+  background-color: var(--yellow-100);
+  border-radius: var(--border-radius);
+}
+
+.low {
+  padding: var(--spacer);
+  margin-bottom: var(--spacer);
+  color: var(--gray-900);
+  background-color: var(--blue-300);
+  border-radius: var(--border-radius);
+}
+
 .message {
   padding: var(--spacer);
   margin-bottom: var(--spacer);
