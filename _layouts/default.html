@@ -22,10 +22,10 @@
 
       <footer class="footer">
         <small>
-          &copy;
-          <time datetime="{{ site.time | date_to_xmlschema }}"
-            >{{ site.time | date: '%Y' }}</time
-          >. All rights reserved.
+          Share this on &rarr;
+          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="devicon-twitter-plain"></i></a>
+          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="devicon-facebook-plain"></i></a>
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.summary }}&source={{ site.url }}" rel="nofollow" target="_blank" title="Share on Linkedin"><i class="devicon-linkedin-plain"></i></a>
         </small>
       </footer>
     </div>
